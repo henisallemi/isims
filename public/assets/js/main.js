@@ -187,8 +187,7 @@
         on("click", modalID + " .close", () => modal.style.display = "none");
 
     }
-    addZoom("#cba", "#cbaModal");
-    addZoom("#mpi", "#mpiModal");
+    addZoom("#cycle", "#cycleModal");
 
     /**
      * clubs Swiper
@@ -227,6 +226,6 @@
             il y a un probléme si on utilise un swiper dans un tab 
             donc on met le swiper en dehors de tab et on ajoute un listner pour l'afficher en cas de besoin
     *******/
-    on("click", ".tabs li#tab4", () => select("div.clubs").style.display = "block");
-    on("click", ".tabs .nav li:not(#tab4)", () => select("div.clubs").style.display = "none", true);
+    on("click", ".tabs li#tab5", () => select("div.clubs").style.display = "block");
+    on("click", ".tabs .nav li:not(#tab5)", () => select("div.clubs").style.display = "none", true);
 

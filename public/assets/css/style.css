@@ -14,12 +14,12 @@ body {
 }
 
 a {
-    color: #e03a3c;
+    color: #00BFFF;
     text-decoration: none;
 }
 
 a:hover {
-    color: #e76668;
+    color: #B0E0E6;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: #e03a3c;
+    background: #00BFFF;
     bottom: 0;
     left: calc(50% - 25px);
 }
@@ -130,7 +130,7 @@ section {
 }
 
 #header .logo img {
-    max-height: 60px;
+    max-height: 80px;
 }
 
 #header .logo img#logo {
@@ -256,7 +256,7 @@ a i.x4{
 .navbar a:hover,
 .navbar .active,
 .navbar li:hover>a {
-    color: #e03a3c;
+    color: #00BFFF;
 }
 
 .navbar .dropdown ul {
@@ -290,7 +290,7 @@ a i.x4{
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #e03a3c;
+    color: #00BFFF;
 }
 
 .navbar .dropdown:hover>ul {
@@ -344,7 +344,7 @@ ul.user-menu-4{
 }
 
 .main-user-menu .sections a.active{
-    color: #e03a3c;
+    color: #00BFFF;
     cursor: default;
 }
 
@@ -429,7 +429,7 @@ ul.user-menu-4{
 }
 
 .sidenav  a:hover {
-    color: #e03a3c;
+    color: #00BFFF;
 }
 
 .sidenav .closebtn {
@@ -460,7 +460,7 @@ ul.user-menu-4{
 header .log-in-btn,
 #LogInModal .log-in-btn{
     margin-left: 30px;
-    background: #e03a3c;
+    background: #00BFFF;
     color: #fff;
     border-radius: 4px;
     padding: 8px 15px;
@@ -566,12 +566,12 @@ section#welcome {
     margin-top: 30px;
     color: #fff;
     background: transparent;
-    border: 2px solid #e03a3c;
+    border: 2px solid #00BFFF;
 }
 
 #welcome .btn-get-started:hover {
     border-color: #fff;
-    background: #e03a3c;
+    background: #00BFFF;
 }
 
 @media (min-width: 1600px) {
@@ -580,7 +580,7 @@ section#welcome {
     }
     #welcome .btn-get-started {
         font-size: 25px;
-        border: 3px solid #e03a3c;
+        border: 3px solid #00BFFF;
     }
 }
 
@@ -660,13 +660,13 @@ section.tabs {
 }
 
 .tabs .nav-link:hover {
-    color: #e03a3c;
+    color: #00BFFF;
 }
 
 .tabs .nav-link.active {
-    background: #e03a3c;
+    background: #00BFFF;
     color: #fff;
-    border-color: #e03a3c;
+    border-color: #00BFFF;
 }
 
 @media (max-width: 768px) {
@@ -708,7 +708,7 @@ section.tabs {
 .tabs .tab-pane ul i {
     font-size: 18px;
     padding-right: 4px;
-    color: #e03a3c;
+    color: #00BFFF;
 }
 
 .tabs .tab-pane p {
@@ -779,7 +779,7 @@ section.tabs {
     transform: translateX(-50%);
     font-size: 24px;
     background: #fff;
-    color: #e03a3c;
+    color: #00BFFF;
     border-radius: 50px;
     border: 2px solid #fff;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.253);
@@ -808,7 +808,7 @@ section.tabs {
 ******************************************************/
 
 div#dep {
-    padding: 55px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .dep .dep-list li {
@@ -820,7 +820,7 @@ div#dep {
 .dep .dep-list a {
     display: block;
     position: relative;
-    font-family: #e03a3c;
+    font-family: #00BFFF;
     font-size: 24px;
     line-height: 24px;
     font-weight: 400;
@@ -850,7 +850,7 @@ div#dep {
 }
 
 .dep .dep-list a.collapsed:hover {
-    color: #e03a3c;
+    color: #00BFFF;
 }
 
 .dep .dep-list a.collapsed .icon-show {
@@ -863,7 +863,7 @@ div#dep {
 
 
 /******************************************************
-            # Image Zoom on click (mpi-cba)
+            # Image Zoom on click 
 ******************************************************/
 
 .tabs .tab-content .zoomable {
@@ -1004,7 +1004,7 @@ div.clubs:active {
 
 .contact .info-box i {
     font-size: 32px;
-    color: #e03a3c;
+    color: #00BFFF;
     border-radius: 50%;
     padding: 4px 10px 6px 10px;
     border: 3px dotted #f8d4d5;
@@ -1055,7 +1055,7 @@ div.clubs:active {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: #e03a3c;
+    background: #00BFFF;
     border: 0;
     padding: 10px 32px;
     color: #fff;
@@ -1064,7 +1064,7 @@ div.clubs:active {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: #e67274;
+    background: #87CEFA;
 }
 
 
@@ -1120,7 +1120,7 @@ div.clubs:active {
 }
 
 #footer .footer-top .footer-contact h3 span {
-    color: #c40707;
+    color: #00BFFF;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1143,7 +1143,7 @@ div.clubs:active {
     display: block;
     width: 20px;
     height: 2px;
-    background: #e03a3c;
+    background: #00BFFF;
     bottom: 0;
     left: 0;
 }
@@ -1222,7 +1222,7 @@ div.clubs:active {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #e03a3c;
+    background: #00BFFF;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -1236,7 +1236,7 @@ div.clubs:active {
 }
 
 .back-to-top:hover {
-    background: #e65d5f;
+    background: #87CEFA;
     color: #fff;
 }
 
@@ -1278,7 +1278,7 @@ div.clubs:active {
 }
 
 .blog .entry .entry-title a:hover {
-    color: #e03a3c;
+    color: #00BFFF;
 }
 
 .blog .entry .entry-meta {
@@ -1328,7 +1328,7 @@ div.clubs:active {
 .knp .pagination span.current,
 .knp .pagination span:hover,
 .knp .pagination span:hover a{
-    background-color: #e03a3c;
+    background-color: #00BFFF;
     color: white;
 }
 
@@ -1425,7 +1425,7 @@ form#profile-form{
 
 /* Add a background color on hover */
 .btn-group a:hover {
-    background-color: #e03a3c;
+    background-color: #00BFFF;
 }
 
 /*///////////////////////////*/
@@ -1464,7 +1464,7 @@ div.download-list li a{
 }
 
 div.download-list li a:hover{
-    color : #e03a3c;
+    color : #00BFFF;
 }
 
 div.download-list li a i{

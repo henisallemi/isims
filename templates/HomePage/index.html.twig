@@ -14,7 +14,7 @@
             <div class="carousel-inner">
                 {% for i in range(1,4) %}
                     <div class="carousel-item {% if i == 1 %}active {% endif %}">
-                        <img src="{{asset("assets/img/slideShow1/insat"~ i ~".jpg")}}" class="d-block w-100">
+                        <img src="{{asset("assets/img/slideShow1/isims"~ i ~".jpg")}}" class="d-block w-100">
                     </div>
                 {% endfor %}
             </div>
@@ -28,7 +28,7 @@
             </button>
         </div>
         <div class="carousel-caption px-auto" data-aos="zoom-out" data-aos-delay="50">
-            <h1>L'institut National des Sciences Appliquées et de Technologie<br></h1>
+            <h1>L'Institut supérieur d'informatique et de multimédia de Sfax <br></h1>
             <a href="#tabs" class="btn-get-started scrollto">A propos ></a>
         </div>
     </section>
@@ -42,26 +42,32 @@
         <section id="tabs" class="tabs">
             <div  data-aos="fade-up">
                 <ul class="nav nav-tabs row d-flex">
-                    <li id="tab1" class="nav-item col-3">
+                    <li id="tab1" class="nav-item col-4">
                         <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
                             <i><iconify-icon data-icon="fa-solid:university"></iconify-icon></i>
                             <h4 class="d-none d-lg-block">Notre Institut</h4>
                         </a>
                     </li>
-                    <li id="tab2" class="nav-item col-3">
+                    <li id="tab2" class="nav-item col-4">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
                             <i><iconify-icon data-icon="maki:college-11"></iconify-icon></i>
-                            <h4 class="d-none d-lg-block">Systéme éducatif</h4>
+                            <h4 class="d-none d-lg-block">Formation</h4>
                         </a>
                     </li>
-                    <li id="tab3" class="nav-item col-3">
+                    <li id="tab3" class="nav-item col-4">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                            <i><iconify-icon data-icon="teenyicons:servers-outline"></iconify-icon></i>
-                            <h4 class="d-none d-lg-block">Départements</h4>
+                            <i><iconify-icon data-icon="maki:college"></iconify-icon></i>
+                            <h4 class="d-none d-lg-block">Préparatoire integré</h4>
                         </a>
                     </li>
-                    <li id="tab4" class="nav-item col-3">
+                    <li id="tab4" class="nav-item col-4">
                         <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                            <i><iconify-icon data-icon="maki:college"></iconify-icon></i>
+                            <h4 class="d-none d-lg-block">Ingénierie</h4>
+                        </a>
+                    </li>
+                    <li id="tab5" class="nav-item col-4">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
                             <i><iconify-icon data-icon="fa-solid:user-graduate"></iconify-icon></i>
                             <h4 class="d-none d-lg-block">Vie étudiante</h4>
                         </a>
@@ -71,17 +77,17 @@
                     <div class="tab-pane active show" id="tab-1">
                         <div class="row">
                             <div class="col-xl-8 col-ms-12" data-aos="fade-up" data-aos-delay="100">
-                                <h3>L'institut National des Sciences Appliquées et de la Technologie :</h3>
+                                <h3>L’Institut Supérieur d’Informatique et du Multimédia de Sfax (ISIMS) :</h3>
                                 <br>
                                 <p>
-                                    Créé en 1992 (loi n°92-102 du 02 novembre 1992), est une institution publique affiliée à l'Université de Carthage et placée sous la tutelle du Ministère de l’Enseignement Supérieur et de la Recherche Scientifique.
+                                    C'est un établissement scientifique relevant de l’ Université de Sfax . Il a été créé suivant un décret présidentiel paru au journal Officiel de la République Tunisienne daté du 14 Août 2001. L’ISIMS dispose de la personnalité civile et d’une autonomie financière. Il met à la disposition de ses étudiants une formation de base pour aboutir aux spécialités suivantes
                                 <ul>
                                     <li>
-                                        <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i> Dispense un enseignement supérieur ayant pour objet la formation de cadres hautement qualifiés dans les domaines de l’ingénierie et de la
+                                        <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i> Dispense un enseignement supérieur ayant pour objet la formation de cadres hautement qualifiés dans les domaines de l’informatique et de la
                                         technologie pour les secteurs publics et privés de la vie économique et de la recherche.
                                     </li>
                                     <li>
-                                        <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i> Participe à la formation continue des ingénieurs et à la mission de diffusion de la culture scientifique et technique.
+                                        <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i> Participe à la formation continue des étudiants et à la mission de diffusion de la culture scientifique et technique.
                                     </li>
                                 </ul>
                                 </p>
@@ -112,61 +118,30 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" tab-pane" id="tab-2">
-                        <h3>Cycle préparatoire intégré :</h3>
-                        <br>
-                        <p>
-                            L'admission à l'INSAT est très compétitive et les étudiants doivent avoir une bonne moyenne pour être admis.<br> L'INSAT assure une formation sur une période de 5 ans : 2 ans de cycle préparatoire integré et aprés le concours
-                            sur dossier, 3 ans de cycle d’ingénieur. En commençant par 2 branches pour la 1ére année du préparatoire intégré :
-                        </p>
-                        <div class="row">
-                            <div id="filieres" class="col-xl-5 col-lg-12 " data-aos="fade-up" data-aos-delay="200">
-                                <ul>
-                                    <li><i><iconify-icon data-icon="ic:outline-science"></iconify-icon></i> Chimie et biologie appliquée (CBA).</li>
-                                    <li><i><iconify-icon data-icon="tabler:math-function"></iconify-icon></i> Math-Physique-Informatique (MPI).</li>
-                                </ul>
-                                <p>Puis en :</p>
-                                <ul>
-                                    <li><i><iconify-icon data-icon="file-icons:dna"></iconify-icon></i> Biologie industrielle (BIO) </li>
-                                    <li><i><iconify-icon data-icon="ic:outline-science"></iconify-icon></i> Chimie Industrielle (CH) </li>
-                                    <li><i><iconify-icon data-icon="uil:processor"></iconify-icon></iconify-icon></i> Informatique Industrielle et Automatique (IIA) </li>
-                                    <li><i><iconify-icon data-icon="fa-solid:wrench"></iconify-icon></i></i> Instrumentation et Maintenance Industrielle (IMI) </li>
-                                    <li><i><iconify-icon data-icon="bx:bx-code-alt"></iconify-icon></i> Génie Logiciel (GL) </li>
-                                    <li><i><iconify-icon data-icon="si-glyph:network-2"></iconify-icon></iconify-icon></i> Réseaux et Télécommunication (RT) </li>
-                                </ul>
-                            </div>
-                            <div id="diagram" class="col-xl-7 col-lg-12 " data-aos="fade-up" data-aos-delay="200">
-                                <img id="cba" src="{{asset('assets/img/CBA.jpg')}}" class="zoomable">
-                                <img id="mpi" src="{{asset('assets/img/MPI.jpg')}}" class="zoomable">
-
-                                <div id="cbaModal" class="modal">
-                                    <span class="close"><iconify-icon data-icon="ant-design:close-circle-filled"></iconify-icon></span>
-                                    <img class="modal-content">
-                                </div>
-                                <div id="mpiModal" class="modal">
-                                    <span class="close"><iconify-icon data-icon="ant-design:close-circle-filled"></iconify-icon></span>
-                                    <img class="modal-content">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane " id="tab-3">
+                    <div class="tab-pane " id="tab-2">
                         <div class="row">
                             <div class="col-md-3 col-ms-12 ">
                                 <div id="counts" class="container counts" data-aos="fade-up">
                                     <div class="row">
                                         <div class="col-md-12 col-6">
                                             <div class="count-box">
-                                                <i><iconify-icon data-icon="teenyicons:servers-outline"></iconify-icon></i>
-                                                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-                                                <span id="label">Départements</span>
+                                                <i><iconify-icon data-icon="ph:student-fill"></iconify-icon></i>
+                                                <span data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1" class="purecounter"></span>
+                                                <span id="label">ÉTudiants</span>
                                             </div>
                                         </div>
                                         <div class=" col-md-12  col-6">
                                             <div class="count-box">
                                                 <i><iconify-icon data-icon="fa-solid:chalkboard-teacher"></iconify-icon></i>
-                                                <span data-purecounter-start="0" data-purecounter-end="187" data-purecounter-duration="0.5" class="purecounter"></span>
+                                                <span data-purecounter-start="0" data-purecounter-end="112" data-purecounter-duration="0.5" class="purecounter"></span>
                                                 <span id="label">Enseignants</span>
+                                            </div>
+                                        </div>
+                                        <div class=" col-md-12  col-6">
+                                            <div class="count-box">
+                                                <i><iconify-icon data-icon="vaadin:diploma-scroll"></iconify-icon></i>
+                                                <span data-purecounter-start="0" data-purecounter-end="4000" data-purecounter-duration="0.5" class="purecounter"></span>
+                                                <span id="label">Diplômés depuis 2001</span>
                                             </div>
                                         </div>
                                     </div>
@@ -177,50 +152,121 @@
                                     <ul class="dep-list accordion" data-aos="fade-up">
                                         <li>
                                             <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#dep1">
-                                                Département de Génie Physique et Instrumentation
+                                                Licence big data et analyse de données
                                                 <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
                                                 <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
                                             </a>
                                             <div id="dep1" class="collapse" data-bs-parent=".dep-list">
                                                 <p>
-                                                    Ce Departement propose, après une année MPI, le choix entre deux options (IIA ou IMI). Cette formation de qualité, à finalité professionnelle, est fort appréciée des industriels.
+                                                    Former les étudiants dans les technologies de l’informatique et des systèmes d’information afin de développer leurs compétences et leur créativité dans ces domaines. Au terme de cette formation, les licenciés doivent être capables de développer des applications informatiques complètes, des sites web statiques et dynamiques ainsi que des réalisations pour l’aide à la décision comme les tableaux de bord et les applications décisionnelles.
                                                 </p>
                                             </div>
                                         </li>
                                         <li>
                                             <a data-bs-toggle="collapse" data-bs-target="#dep2" class="collapsed">
-                                                Département de Génie Informatique et Mathématiques
+                                                Licence informatique & multimédia
                                                 <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
                                                 <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
                                             </a>
                                             <div id="dep2" class="collapse" data-bs-parent=".dep-list">
                                                 <p>
-                                                    Ses activités consistent à mobiliser et gérer les ressources nécessaires pour l’enseignement des disciplines informatique et mathématiques durant le cursus des élèves ingénieurs de l’INSAT
-                                                </p>
+                                                    Donner à l’étudiant une formation théorique lui permettant d’acquérir des connaissances et des compétences dans le domaine de l’informatique et du multimédia
+                                                    Développer, chez l’étudiant, l’esprit de création, d’initiative et le contrôle des nouvelles technologies de l’information appliquées dans l’environnement socio-économique et dans le domaine de la recherche scientifique à l’échelle nationale et internationale                                                </p>
                                             </div>
                                         </li>
                                         <li>
                                             <a data-bs-toggle="collapse" data-bs-target="#dep3" class="collapsed">
-                                                Département de Génie Biologique et de Chimie
+                                                Mastere de recherche en sciences de l'informatique
                                                 <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
                                                 <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
                                             </a>
                                             <div id="dep3" class="collapse" data-bs-parent=".dep-list">
                                                 <p>
-                                                    Ce Departement propose, après une année CBA, le choix entre deux options (CH ou BIO) et a pour objectif de former des ingénieurs aptes à maîtriser les méthodes d’analyses chimiques et biologiques, dans un secteur industriel ou pharmaceutique.
+                                                    Le Mastère recherche en Science de l’Informatique a pour but de donner des connaissances théoriques et pratiques de haut niveau dans les disciplines informatiques et Multimédia. Dans ce cadre, de solides connaissances sont particulièrement nécessaires suite au développement des nouvelles technologies de l’information et de la communication (documents visuels, électroniques, documents multimédia). 
+                                                    Le but de ce mastère est de permettre aux étudiants de traiter, en vue de leur analyse et de leur interprétation, des documents numériques de tout type et dans des contextes divers (Internet, multimédia, etc.).
                                                 </p>
                                             </div>
                                         </li>
                                         <li>
                                             <a data-bs-toggle="collapse" data-bs-target="#dep4" class="collapsed">
-                                                Département de Sciences Sociales, Langues et Formation Générale
+                                                Mastere de recherche enterprise system engineering
                                                 <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
                                                 <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
                                             </a>
                                             <div id="dep4" class="collapse" data-bs-parent=".dep-list">
                                                 <p>
-                                                    Ce Departement propose une formation autour de l’économie, de la gestion, du droit, de la sociologie et des langues. Ces disciplines occupent une place tout à fait centrale dans la formation de l’ingénieur. L’INSAT poursuit l’objectif ambitieux de donner
-                                                    à ses élèves une double formation, à la fois technique et managérial.
+                                                    Le Mastère ESE s’adresse aux étudiants souhaitant poursuivre leurs études de troisième cycle LMD. Les principaux objectifs de cette formation sont les suivants :<br>
+                                                     - Offrir de nouveaux cours d’actualité et ciblés pour les PME.<br>
+                                                     - Appliquer de nouvelles méthodes d'enseignement basées sur la compréhension plutôt que la mémorisation.<br>
+                                                     - Renforcer la formation pratique et ceci au travers des études de cas réels issus des pays partenaires: Allemagne, Espagne, Portugal, Suède, Egypte, Syrie et la Jordanie.
+                                                </p>
+                                            </div>
+                                        </li>
+										<li>
+                                            <a data-bs-toggle="collapse" data-bs-target="#dep5" class="collapsed">
+                                                Mastere de recherche en data science
+                                                <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
+                                                <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
+                                            </a>
+                                            <div id="dep5" class="collapse" data-bs-parent=".dep-list">
+                                                <p>
+                                                    Préparer les étudiants aux domaines de recherche liés à l’analyse de données et à l’informatique décisionnelle<br>
+                                                    - Approfondir les connaissances en statistique<br>
+                                                    - Approfondir les connaissances en outils décisionnels<br>
+                                                    - Développer la capacité à élaborer projet décisionnel dans toutes ses phases<br>
+                                                </p>
+                                            </div>
+                                        </li>
+										<li>
+                                            <a data-bs-toggle="collapse" data-bs-target="#dep6" class="collapsed">
+                                                Mastere de recherche en systèmes cyberphysiques
+                                                <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
+                                                <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
+                                            </a>
+                                            <div id="dep6" class="collapse" data-bs-parent=".dep-list">
+                                                <p>
+                                                   Former des spécialistes maîtrisant les problématiques des systèmes cyber-physiques résultats de la fusion des dimensions physiques et numériques de nos environnements comme l’industrie 4.0, villes intelligentes ou les systèmes de transports intelligents, capables de proposer et de mettre en œuvre des solutions adéquates et innovantes pour appréhender ces systèmes.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a data-bs-toggle="collapse" data-bs-target="#dep7" class="collapsed">
+                                                Master recherche en science en technologies numériques pour les soins de santé
+                                                <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
+                                                <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
+                                            </a>
+                                            <div id="dep7" class="collapse" data-bs-parent=".dep-list">
+                                                <p>
+                                                    Former des spécialistes maîtrisant les problématiques des systèmes digitaux pour la santé et le bien être à travers le sport. Ces spécialistes seront polyvalents avec des connaissances sur la santé, la nutrition et des connaissances poussées en informatiques et leur permettant ainsi de développer des applications innovantes pour la santé et ils seront capables de proposer et de mettre en œuvre des solutions adéquates et innovantes pour appréhender des systèmes de mesure de performance, d’analyse de motricité.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a data-bs-toggle="collapse" data-bs-target="#dep8" class="collapsed">
+                                                Mastere professionnel en innovation et gestion de projets
+                                                <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
+                                                <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
+                                            </a>
+                                            <div id="dep8" class="collapse" data-bs-parent=".dep-list">
+                                                <p>
+                                                    Ce mastère vise à l’acquisition de connaissances et de compétences essentielles à l’élaboration de stratégies communicationnelles créatives dans des environnements numériques en perpétuelle évolution.<br>
+                                                    - Mettre en œuvre des compétences méthodologiques (approches collaboratives et créatives) dans le cadre de réalisations collectives.<br>
+                                                    - Acquérir une démarche scientifique en SIC et à questionner le rôle des technologies de l’information et de la communication dans leur globalité et leur complexité (possibilité de poursuite d’études en formation doctorale)<br>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a data-bs-toggle="collapse" data-bs-target="#dep9" class="collapsed">
+                                                Mastere professionnel en design d'experience et design d'interface
+                                                <i class="icon-show"><iconify-icon data-icon="akar-icons:chevron-down"></iconify-icon></i>
+                                                <i class="icon-close"><iconify-icon data-icon="akar-icons:chevron-up"></iconify-icon></i>
+                                            </a>
+                                            <div id="dep9" class="collapse" data-bs-parent=".dep-list">
+                                                <p>
+                                                    Approfondir les connaissances des étudiants en réalisations audiovisuelles et dans le développement des jeux vidéo et des applications multimédia afin de pourvoir diriger des projets numériques et multimédia<br>
+                                                    - Approfondir les connaissances en développement des jeux vidéo et des applications multimédia<br>
+                                                    - Approfondir les connaissances en développement des environnements virtuels<br>
+                                                    - Développer la capacité à élaborer projet de création numérique dans toutes ses phases
                                                 </p>
                                             </div>
                                         </li>
@@ -229,12 +275,60 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-4">
+                    <div class=" tab-pane" id="tab-3">
+                        <h3>Cycle préparatoire intégré :</h3>
+                        <br>
+                        <p>
+                            Depuis l’année universitaire 2020-2021, le département ingénierie informatique et multimédia intègre un cycle préparatoire intégré. L’objectif des deux années de préparation intégrée au cycle d’ingénieur de l’ISIMS est d’acquérir principalement un socle de connaissances solides, sur lequel s’appuiera ensuite le cycle ingénieur. Le programme de ces deux années intègre des cours bien poussés en mathématique, électronique, mais il s’en distingue aussi grâce à des enseignements plus concrets en informatique fondamentale et appliqué aux différents contextes et multimédia
+                        </p><br>
+                        <h3>RÉGIME DES ÉTUDES : </h3><br>
+                        <p>L’Institut Supérieur d’Informatique et de Multimédia de Sfax (ISIMS) propose d’assurer une formation d’ingénieurs comme suit :</p>
+                        <ul>
+                            <li>
+                                <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i>Un cycle préparatoire intégré en science de l'informatique et du multimédia qui dure 2 ans au cours duquel un seul redoublement est permis. L’admission à ce cycle préparatoire intégré se fait par l’orientation de nouveaux bacheliers.
+                            </li>
+                            <li>
+                                <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i>Un cycle de formation pour l’obtention d’un diplôme national d’ingénieurs en informatique et multimédia. Ce cycle dure 3 ans au cours duquel un seul redoublement est permis. L’admission à ce cycle d’ingénieur se fait par voie de concours ouvert aux étudiants inscrits en cycle préparatoire intégré en science de l'informatique et de multimédia de l’ISIMS et sur concours spécifique pour les étudiants de la 3ème année licence et pour les étudiants de la 1 ère année Master.
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div id="diagram" class="col-lg-12 " data-aos="fade-up" data-aos-delay="200">
+                                <img id="cycle" class="img-fluid rounded mx-auto d-block" src="{{asset('assets/img/cycle.jpeg')}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" tab-pane" id="tab-4">
+                        <h3>Ingénierie :</h3>
+                        <br>
+                        <p>
+                            L’un des objectifs fondamentaux de cette formation, est le développement chez les étudiants ingénieurs, l’esprit créatif, scientifique et technique dans les domaines du multimédia et du Web.<br> Le diplôme d’Ingénieur en Informatique, Technologies Web & Multimédia a pour but de former des cadres supérieurs scientifiques capables de conduire l’étude, la conception, le développement et la réalisation de projets dans les secteurs de l’entreprise.
+                        </p>
+                        <p>Les ingénieurs ayant suivi cette formation pourront assurer, en plus des tâches informatiques traditionnelles, des responsabilités aussi variées que celles liées aux domaines suivants : </p>
+                        <ul>
+                            <li>
+                                <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i>Internet : Chef de projet, consultant en solutions Internet, consultant e-business, développeur en nouvelles technologies Internet, administrateur réseaux Internet / Intranet, ….
+                            </li>
+                            <li>
+                                <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i>Ingénierie ITMW : Ingénieur de recherche en ITMW, chef de projet,  consultant en SSII,...
+                            </li>
+                            <li>
+                                <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i>Audiovisuel numériques : Ingénieur Monteur, truquiste, effets spéciaux, chargé de production,...
+                            </li>
+                            <li>
+                                <i><iconify-icon data-icon="ri:check-double-line"></iconify-icon></i>Multimédia : Chef de projet, développeur nouvelles technologies (Réalité virtuelle, animation 3D, ...), développeur produits multimédia (CD Interactif, animation 2D, ...), Ingénieur R&D en traitement d’image et de la vidéo, etc…
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div id="diagram" class="col-lg-12 " data-aos="fade-up" data-aos-delay="200">
+                                <img id="cycle" class="img-fluid rounded mx-auto d-block" src="{{asset('assets/img/ing.jpeg')}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-5">
                         <h3>La vie associative :</h3>
                         <br>
-                        <p> À l'INSAT l'étudiant aura non seulement la formation de l'ingénierie mais aussi une formation qui lui permet d’apprendre à vivre en société et d’acquérir la compétence de développer le savoir-faire et le savoir-être pour se préparer
-                            à l’insertion professionnelle.<br> En fait, derrière ses murs rouges vous pouvez mettre votre passion dans n'importe quel intérêt imaginable, de la musique et du théâtre à la robotique et aux services de communité grâce aux
-                            clubs et leurs activités :
+                        <p> À l'ISIMS l'étudiant aura non seulement la formation educative mais aussi une formation qui lui permet d’apprendre à vivre en société et d’acquérir la compétence de développer le savoir-faire et le savoir-être pour se préparer
+                            à l’insertion professionnelle.<br>grâce aux clubs et leurs activités :
                         </p>
                         <br>
                     </div>
@@ -243,7 +337,7 @@
             <div id="clubs" class="clubs">
                 <div class="clubs-slider swiper-container">
                     <div class="swiper-wrapper align-items-center">
-                        {% for i in range(1,14) %}
+                        {% for i in range(1,8) %}
                             <div class="swiper-slide"><img src="{{asset("assets/img/clubs/club-"~i~".png")}}" class="img-fluid"></div>
                         {% endfor %}
                     </div>
@@ -269,7 +363,7 @@
                                     <div class="gmap_canvas">
                                         <iframe width="95%" height="350"
                                                 id="gmap_canvas"
-                                                src="https://maps.google.com/maps?q=676%20INSAT%20Centre%20Urbain%20Nord%20BP%D8%8C%20Tunis%20Cedex%201080&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"
+                                                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=isims&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no"
                                                 marginheight="0" marginwidth="0">
 
                                         </iframe><br>

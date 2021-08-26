@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 namespace App\Controller;
 
 use App\Repository\ActualiteRepository;
@@ -21,7 +20,7 @@ class HomePageController extends AbstractController
     public function index(): Response
     {
         return $this->render('HomePage/index.html.twig', [
-            'title' => 'Institut National des Sciences Appliquées et de Technologie',
+            'title' => 'ISIM Sfax',
             'homepage' => true,
         ]);
     }
