@@ -43,8 +43,7 @@ security:
         - { path: ^/download, roles: ROLE_EDITEUR_SITE }
         - { path: ^/emploi/du/temps/, roles: ROLE_EDITEUR_SITE}
         - { path: ^/enseignants , roles : ROLE_SCOLARITE}
-        - { path: ^/etudiant, roles : ROLE_ETUDIANT}
-        - { path: ^/etudaints, roles: ROLE_SCOLARITE}
+        - { path: ^/etudiant, roles : [ROLE_ETUDIANT, ROLE_SCOLARITE]}
         - { path: ^/fiche/notes, roles: [ROLE_SCOLARITE , ROLE_ENSEIGNANT] }
         - { path: ^/filiere, roles: ROLE_EDITEUR_BASE }
         - { path: ^/usermenu, roles: ROLE_USER}

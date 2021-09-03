@@ -8,9 +8,12 @@
         <div class="articles flex-wrap d-flex justify-content-center">
         {% for actualite in actualites %}
         <article class="entry">
+         {% if actualite.photo is defined and actualite.photo %}
             <div class="entry-img">
                 <img src="{{asset(actualite.photo.getFullUrl())}}" alt="" class="img-fluid">
             </div>
+        {% endif%}  
+
                         <h2 class="entry-title">
 
                             <a {% if actualite.doc is defined and actualite.doc %}
